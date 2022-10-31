@@ -1,0 +1,14 @@
+name: Rprojects
+title: Rprojects
+username:
+account: 3w88wn-pedro-lins
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7466737
+bundleId: 6457318
+url: https://3w88wn-pedro-lins.shinyapps.io/Rprojects/
+when: 1667179938.40288
+lastSyncTime: 1667179938.40289
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app 2.r|app 3.r
