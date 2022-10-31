@@ -18,6 +18,12 @@ library(RCurl)
 library(gapminder)
 library(tidyverse)
 
+#x <- getURL("https://raw.githubusercontent.com/PedroLinsMMC/R-projects/main/openpowerliftingsmall.csv")
+#df <- read.csv(text = x)
+
+ds = "openpowerliftingsmall.csv" 
+df = read_csv(ds)
+
   # Define UI
 ui <- fluidPage(theme = shinytheme("united"),
                 navbarPage("Powerlifting Analytics:",
@@ -65,8 +71,6 @@ server <- function(input, output, session) {
   
   datasetInput <- reactive({  
     
-    #x <- getURL("https://media.githubusercontent.com/media/PedroLinsMMC/PowerliftingAnalytics/main/openpowerlifting.csv")
-    #df <- read.csv(text = x)
     
     
     Name1 = input$txt1
